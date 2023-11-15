@@ -1,0 +1,49 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: #4F4846;
+  }
+
+/* Navigation styles */
+.logo {
+    height:230px;
+    width:100%;
+    background: url("../images/jakes-logo.png") no-repeat center;
+}
+
+. {
+    height:230px;
+    width:100%;
+    background: url("../images/jakes-logo.png") no-repeat center;
+}
+
+/* Column styles */
+
+/* Footer Styles */
+.center,
+.footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #000000;
+  text-align: center;
+}
+
+
+.footer {
+position: fixed;
+margin-top: 0;
+bottom: 0;
+border-bottom: 10px solid #4F4846;
+color: #FDF8F5;
+text-align: center;    
+}
